@@ -1,0 +1,5 @@
+"0","ggplot(covid, aes(x = date, y = count, group = mandate, color = mandate)) +"
+"0","  geom_line() + "
+"0","  labs(title = ""Kansas COVID-19 7-Day Rolling Average of Daily Cases Per 100K"", subtitle = ""Mask Mandates v.s. No mask Mandates Counties"", y = ""Count (per 100K)"", x =""Date"", color = ""Mandate"", mask = ""Mask Mandates"", nomask = ""No Mask Mandates"") +   "
+"0","  theme(axis.text.x = element_text(angle = 45, hjust = 1)) + "
+"0","    scale_color_discrete(labels = c(""mask"" = ""Mask Mandate"", ""nomask"" = ""No Mask Mandate""))"
